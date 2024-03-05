@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F5717DF2B97BBFD0045AD30 /* ColorFillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5717DE2B97BBFD0045AD30 /* ColorFillTests.swift */; };
 		7F61C3DA2B7441E200A9E759 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61C3D92B7441E200A9E759 /* MemorizeApp.swift */; };
 		7F61C3DC2B7441E200A9E759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61C3DB2B7441E200A9E759 /* ContentView.swift */; };
 		7F61C3DE2B7441E500A9E759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F61C3DD2B7441E500A9E759 /* Assets.xcassets */; };
 		7F61C3E12B7441E500A9E759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F61C3E02B7441E500A9E759 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7F5717E02B97BBFD0045AD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F61C3CE2B7441E200A9E759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F61C3D52B7441E200A9E759;
+			remoteInfo = ColorFill;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		7F61C3D62B7441E200A9E759 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5717DC2B97BBFD0045AD30 /* ColorFillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorFillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5717DE2B97BBFD0045AD30 /* ColorFillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFillTests.swift; sourceTree = "<group>"; };
+		7F61C3D62B7441E200A9E759 /* ColorFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F61C3D92B7441E200A9E759 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		7F61C3DB2B7441E200A9E759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F61C3DD2B7441E500A9E759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -23,6 +36,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F5717D92B97BBFD0045AD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F61C3D32B7441E200A9E759 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F5717DD2B97BBFD0045AD30 /* ColorFillTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F5717DE2B97BBFD0045AD30 /* ColorFillTests.swift */,
+			);
+			path = ColorFillTests;
+			sourceTree = "<group>";
+		};
 		7F61C3CD2B7441E200A9E759 = {
 			isa = PBXGroup;
 			children = (
-				7F61C3D82B7441E200A9E759 /* Memorize */,
+				7F61C3D82B7441E200A9E759 /* ColorFill */,
+				7F5717DD2B97BBFD0045AD30 /* ColorFillTests */,
 				7F61C3D72B7441E200A9E759 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +73,13 @@
 		7F61C3D72B7441E200A9E759 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F61C3D62B7441E200A9E759 /* Memorize.app */,
+				7F61C3D62B7441E200A9E759 /* ColorFill.app */,
+				7F5717DC2B97BBFD0045AD30 /* ColorFillTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F61C3D82B7441E200A9E759 /* Memorize */ = {
+		7F61C3D82B7441E200A9E759 /* ColorFill */ = {
 			isa = PBXGroup;
 			children = (
 				7FB09F552B7AAF36004ECD2F /* Info.plist */,
@@ -58,7 +88,7 @@
 				7F61C3DD2B7441E500A9E759 /* Assets.xcassets */,
 				7F61C3DF2B7441E500A9E759 /* Preview Content */,
 			);
-			path = Memorize;
+			path = ColorFill;
 			sourceTree = "<group>";
 		};
 		7F61C3DF2B7441E500A9E759 /* Preview Content */ = {
@@ -72,9 +102,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F61C3D52B7441E200A9E759 /* Memorize */ = {
+		7F5717DB2B97BBFD0045AD30 /* ColorFillTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F61C3E42B7441E500A9E759 /* Build configuration list for PBXNativeTarget "Memorize" */;
+			buildConfigurationList = 7F5717E22B97BBFD0045AD30 /* Build configuration list for PBXNativeTarget "ColorFillTests" */;
+			buildPhases = (
+				7F5717D82B97BBFD0045AD30 /* Sources */,
+				7F5717D92B97BBFD0045AD30 /* Frameworks */,
+				7F5717DA2B97BBFD0045AD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F5717E12B97BBFD0045AD30 /* PBXTargetDependency */,
+			);
+			name = ColorFillTests;
+			productName = ColorFillTests;
+			productReference = 7F5717DC2B97BBFD0045AD30 /* ColorFillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F61C3D52B7441E200A9E759 /* ColorFill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F61C3E42B7441E500A9E759 /* Build configuration list for PBXNativeTarget "ColorFill" */;
 			buildPhases = (
 				7F61C3D22B7441E200A9E759 /* Sources */,
 				7F61C3D32B7441E200A9E759 /* Frameworks */,
@@ -84,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = Memorize;
+			name = ColorFill;
 			productName = Memorize;
-			productReference = 7F61C3D62B7441E200A9E759 /* Memorize.app */;
+			productReference = 7F61C3D62B7441E200A9E759 /* ColorFill.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,12 +147,16 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					7F5717DB2B97BBFD0045AD30 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7F61C3D52B7441E200A9E759;
+					};
 					7F61C3D52B7441E200A9E759 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 7F61C3D12B7441E200A9E759 /* Build configuration list for PBXProject "Memorize" */;
+			buildConfigurationList = 7F61C3D12B7441E200A9E759 /* Build configuration list for PBXProject "ColorFill" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,12 +169,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F61C3D52B7441E200A9E759 /* Memorize */,
+				7F61C3D52B7441E200A9E759 /* ColorFill */,
+				7F5717DB2B97BBFD0045AD30 /* ColorFillTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7F5717DA2B97BBFD0045AD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F61C3D42B7441E200A9E759 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +195,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F5717D82B97BBFD0045AD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5717DF2B97BBFD0045AD30 /* ColorFillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F61C3D22B7441E200A9E759 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,7 +214,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7F5717E12B97BBFD0045AD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F61C3D52B7441E200A9E759 /* ColorFill */;
+			targetProxy = 7F5717E02B97BBFD0045AD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7F5717E32B97BBFD0045AD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P6W53J7FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayv.ColorFillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorFill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorFill";
+			};
+			name = Debug;
+		};
+		7F5717E42B97BBFD0045AD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P6W53J7FF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayv.ColorFillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorFill.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorFill";
+			};
+			name = Release;
+		};
 		7F61C3E22B7441E500A9E759 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -290,7 +402,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayv.Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayv.ColorFill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayv.Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanjayv.ColorFill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,7 +445,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F61C3D12B7441E200A9E759 /* Build configuration list for PBXProject "Memorize" */ = {
+		7F5717E22B97BBFD0045AD30 /* Build configuration list for PBXNativeTarget "ColorFillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5717E32B97BBFD0045AD30 /* Debug */,
+				7F5717E42B97BBFD0045AD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F61C3D12B7441E200A9E759 /* Build configuration list for PBXProject "ColorFill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F61C3E22B7441E500A9E759 /* Debug */,
@@ -342,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F61C3E42B7441E500A9E759 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
+		7F61C3E42B7441E500A9E759 /* Build configuration list for PBXNativeTarget "ColorFill" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F61C3E52B7441E500A9E759 /* Debug */,
