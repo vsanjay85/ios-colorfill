@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F5717DF2B97BBFD0045AD30 /* ColorFillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5717DE2B97BBFD0045AD30 /* ColorFillTests.swift */; };
-		7F61C3DA2B7441E200A9E759 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61C3D92B7441E200A9E759 /* MemorizeApp.swift */; };
+		7F61C3DA2B7441E200A9E759 /* ColorFillApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61C3D92B7441E200A9E759 /* ColorFillApp.swift */; };
 		7F61C3DC2B7441E200A9E759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F61C3DB2B7441E200A9E759 /* ContentView.swift */; };
 		7F61C3DE2B7441E500A9E759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F61C3DD2B7441E500A9E759 /* Assets.xcassets */; };
 		7F61C3E12B7441E500A9E759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F61C3E02B7441E500A9E759 /* Preview Assets.xcassets */; };
@@ -28,7 +28,7 @@
 		7F5717DC2B97BBFD0045AD30 /* ColorFillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorFillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5717DE2B97BBFD0045AD30 /* ColorFillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFillTests.swift; sourceTree = "<group>"; };
 		7F61C3D62B7441E200A9E759 /* ColorFill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorFill.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F61C3D92B7441E200A9E759 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
+		7F61C3D92B7441E200A9E759 /* ColorFillApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFillApp.swift; sourceTree = "<group>"; };
 		7F61C3DB2B7441E200A9E759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F61C3DD2B7441E500A9E759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F61C3E02B7441E500A9E759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7FB09F552B7AAF36004ECD2F /* Info.plist */,
-				7F61C3D92B7441E200A9E759 /* MemorizeApp.swift */,
+				7F61C3D92B7441E200A9E759 /* ColorFillApp.swift */,
 				7F61C3DB2B7441E200A9E759 /* ContentView.swift */,
 				7F61C3DD2B7441E500A9E759 /* Assets.xcassets */,
 				7F61C3DF2B7441E500A9E759 /* Preview Content */,
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F61C3DC2B7441E200A9E759 /* ContentView.swift in Sources */,
-				7F61C3DA2B7441E200A9E759 /* MemorizeApp.swift in Sources */,
+				7F61C3DA2B7441E200A9E759 /* ColorFillApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,11 +385,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ColorFill/Preview Content\"";
 				DEVELOPMENT_TEAM = 5P6W53J7FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Memorize/Info.plist;
+				INFOPLIST_FILE = ColorFill/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -417,11 +417,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ColorFill/Preview Content\"";
 				DEVELOPMENT_TEAM = 5P6W53J7FF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Memorize/Info.plist;
+				INFOPLIST_FILE = ColorFill/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
