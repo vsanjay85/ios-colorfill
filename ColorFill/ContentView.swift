@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20.0)
@@ -23,7 +23,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                     .padding(.all)
 //                    .bold()
-                
+
                 HStack {
                     PickerView(fillColor: .white)
                     PickerView(fillColor: .red)
@@ -66,7 +66,7 @@ struct PickerView: View {
 }
 
 struct FullScreen: View {
-    
+
     @Binding var isFullScreen: Bool
     @Binding var fillColor: Color
     let myColor: Color = .gray
@@ -75,7 +75,7 @@ struct FullScreen: View {
             fillColor
                 .edgesIgnoringSafeArea(.all)
                 .statusBar(hidden: true)
-            
+
         }.onTapGesture {
             self.isFullScreen.toggle()
         }

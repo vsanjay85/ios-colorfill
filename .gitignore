@@ -25,6 +25,9 @@ DerivedData/
 ## Obj-C/Swift specific
 *.hmap
 
+# SonarQube
+.scannerwork
+
 ## App packaging
 *.ipa
 *.dSYM.zip
